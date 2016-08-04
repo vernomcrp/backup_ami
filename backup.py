@@ -37,8 +37,6 @@ def backup():
                 dry_run=True
             )
             print 'Backup %s' % ami_id
-        else:
-            print 'Cannot find target instance.'
 
     else:
         print "Cannot connect to AWS."
